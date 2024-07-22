@@ -17,7 +17,8 @@
 ## I'm working on
 - the [fastboot-assistant](https://github.com/NachtsternBuild/fastboot-assistant)
 - some other stuff
-- ⚡ Fun fact: ...
+
+## Nice to know
 <div align="left">
 <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NachtsternBuild&theme=2077" height="180em" />
 <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NachtsternBuild&theme=2077" height="180em" />
