@@ -1,7 +1,7 @@
 # NachtsternBuild 
 ## My interests 
 - **software and application development**
-- **evelopment with C, Bash and GTK**
+- **development with C, Bash and GTK**
 ## Languages:
 | C | Bash | Python3 |
 |----------|----------|----------|
