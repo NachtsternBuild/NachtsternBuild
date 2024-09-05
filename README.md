@@ -16,6 +16,7 @@
 
 ## I'm working on
 - the [fastboot-assistant](https://github.com/NachtsternBuild/fastboot-assistant)
+- the [treble-updater](https://github.com/NachtsternBuild/Treble-Updater/)
 - some [experiments](https://github.com/NachtsternBuild/Experimente)
 - some other stuff
 
