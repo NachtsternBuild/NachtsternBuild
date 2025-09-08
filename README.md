@@ -2,39 +2,23 @@
 
 > *"Always building, always learning."*  
 
-## 📂 Languages & Tools
-<p align="center">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="96" height="96" style="margin: 10px;"/>
-  <sub><sup> C </sup></sub> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-plain.svg" title="Bash" alt="Bash" width="96" height="96" style="margin: 10px;"/> 
-  <sub><sup> Bash </sup></sub>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="96" height="96" style="margin: 10px;"/> 
-  <sub><sup> Python3 </sup></sub>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="96" height="96" style="margin: 10px;"/> 
-  <sub><sup> Linux </sup></sub>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/ubuntu/ubuntu-original.svg" title="Ubuntu" alt="Ubuntu" width="96" height="96" style="margin: 10px;"/> 
-  <sub><sup> Ubuntu </sup></sub>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/android/android-original.svg" title="Android" alt="Android" width="96" height="96" style="margin: 10px;"/> 
-  <sub><sup> Android </sup></sub>
-</p>
-
 ## 📂 Featured Projects
-<div align="center">
+<div align="left">
 
 🛠️ [**fastboot-assistant**](https://github.com/NachtsternBuild/fastboot-assistant)  
-<sub><sup>→ Android Fastboot tools with a clean interface</sup></sub>  
+<sub><sup> → Android Fastboot tools with a clean interface </sup></sub>  
 
 🛠️ [**The AtlantisOS Project**](https://github.com/AtlantisOS-Project)  
-<sub><sup>→ Build Ubuntu for everyone, by everyone themself </sup></sub>  
+<sub><sup> → Build Ubuntu for everyone, by everyone themself </sup></sub>  
 
 🛠️ [**Treble-Updater**](https://github.com/NachtsternBuild/Treble-Updater/)  
-<sub><sup>→ Simple GSI update manager</sup></sub>  
+<sub><sup> → Simple GSI update manager </sup></sub>  
 
 🛠️ [**VLC-PlaySaver**](https://github.com/NachtsternBuild/VLC-PlaySaver)  
-<sub><sup>→ Save & restore VLC playlists</sup></sub>  
+<sub><sup> → Save & restore VLC playlists </sup></sub>  
 
 🧪 [**Experimente**](https://github.com/NachtsternBuild/Experimente)  
-<sub><sup>→ My playground for new ideas</sup></sub>  
+<sub><sup> → My playground for new ideas </sup></sub>  
 
 </div>
 
@@ -190,6 +174,23 @@ int main(void)
     return 0;
 }
 ```
+
+## 📂 Languages & Tools
+<p align="center">
+  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="96" height="96" style="margin: 10px;"/>
+  <sub><sup> C </sup></sub> 
+  <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-plain.svg" title="Bash" alt="Bash" width="96" height="96" style="margin: 10px;"/> 
+  <sub><sup> Bash </sup></sub>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="96" height="96" style="margin: 10px;"/> 
+  <sub><sup> Python3 </sup></sub>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="96" height="96" style="margin: 10px;"/> 
+  <sub><sup> Linux </sup></sub>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/ubuntu/ubuntu-original.svg" title="Ubuntu" alt="Ubuntu" width="96" height="96" style="margin: 10px;"/> 
+  <sub><sup> Ubuntu </sup></sub>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/android/android-original.svg" title="Android" alt="Android" width="96" height="96" style="margin: 10px;"/> 
+  <sub><sup> Android </sup></sub>
+</p>
+
 ## 📊 GitHub Insights
 <p align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NachtsternBuild&theme=2077" height="180em" style="border-radius: 20px;"/>
