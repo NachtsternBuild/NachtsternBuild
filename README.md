@@ -1,4 +1,4 @@
-# <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="48" height="48" style="margin: 10px;"/>  NachtsternBuild
+# <img src="https://github.com/NachtsternBuild/NachtsternBuild/blob/main/phoenix.jpeg" title="Phoenix" alt="Phoenix" width="64" style="margin: 10px;"/>  NachtsternBuild
 
 > *"Always building, always learning."*  
 
