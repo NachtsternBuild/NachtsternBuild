@@ -1,4 +1,4 @@
-# <img src="https://github.com/NachtsternBuild/NachtsternBuild/blob/main/phoenix.jpeg" title="Phoenix" alt="Phoenix" width="64" style="margin: 10px;"/>  NachtsternBuild
+# ✨ NachtsternBuild
 
 > *"Always building, always learning."*  
 
