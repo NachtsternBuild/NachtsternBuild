@@ -183,17 +183,12 @@ int main(void)
 ## Languages & Tools & Insights
 <p align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="96" height="96" style="margin: 10px;"/>
-  <sub><sup> C </sup></sub> 
   <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-plain.svg" title="Bash" alt="Bash" width="96" height="96" style="margin: 10px;"/> 
-  <sub><sup> Bash </sup></sub>
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="96" height="96" style="margin: 10px;"/> 
-  <sub><sup> Python3 </sup></sub>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" title="Java" alt="Java" width="96" heigth="96" style="margin: 10px"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="96" height="96" style="margin: 10px;"/> 
-  <sub><sup> Linux </sup></sub>
   <img src="https://github.com/devicons/devicon/blob/master/icons/ubuntu/ubuntu-original.svg" title="Ubuntu" alt="Ubuntu" width="96" height="96" style="margin: 10px;"/> 
-  <sub><sup> Ubuntu </sup></sub>
   <img src="https://github.com/devicons/devicon/blob/master/icons/android/android-original.svg" title="Android" alt="Android" width="96" height="96" style="margin: 10px;"/> 
-  <sub><sup> Android </sup></sub>
 </p>
 <p align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NachtsternBuild&theme=2077" height="180em" style="border-radius: 20px;"/>
