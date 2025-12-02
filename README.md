@@ -1,33 +1,12 @@
-# ✨ NachtsternBuild
+# NachtsternBuild
 
 > *"Always building, always learning."*  
 
-## 📂 Featured Projects
-<div align="left">
-
-🛠️ [**fastboot-assistant**](https://github.com/NachtsternBuild/fastboot-assistant)  
-<sub><sup> → Android Fastboot tools with a clean interface </sup></sub>  
-
-🛠️ [**The AtlantisOS Project**](https://github.com/AtlantisOS-Project)  
-<sub><sup> → Build Ubuntu for everyone, by everyone themself </sup></sub>  
-
-🛠️ [**Treble-Updater**](https://github.com/NachtsternBuild/Treble-Updater/)  
-<sub><sup> → Simple GSI update manager </sup></sub>  
-
-🛠️ [**VLC-PlaySaver**](https://github.com/NachtsternBuild/VLC-PlaySaver)  
-<sub><sup> → Save & restore VLC playlists </sup></sub>  
-
-🧪 [**Experimente**](https://github.com/NachtsternBuild/Experimente)  
-<sub><sup> → My playground for new ideas </sup></sub>  
-
-</div>
-
-
-## 👋 **Hi, thats me:**
 ```c
-/* nerdy.c — "NachtsternBuild Orbiter" 
+/** 
+ * nachtstern.c — "NachtsternBuild Orbiter" 
  * A tiny, fun C program that prints a pastel-ish animated header
- * Compile: gcc -O2 -std=c11 -o nachtstern nerdy.c
+ * Compile: gcc -O2 -std=c11 -o nachtstern nachtstern.c
  * Run: ./nachtstern
  */
 #define _XOPEN_SOURCE 500 // for usleep
@@ -40,7 +19,9 @@
 #include <time.h>
 
 
-/* ANSI color helpers (pastel-like) */
+/**
+* ANSI color helpers (pastel-like) 
+*/
 static const char *cols[] = {
     "\x1b[38;5;159m", /* pastel cyan */
     "\x1b[38;5;175m", /* pastel purple */
@@ -52,11 +33,15 @@ static const char *cols[] = {
 static const char *RESET = "\x1b[0m";
 static const int NCOLS = sizeof(cols)/sizeof(cols[0]);
 
-/* Simple spinner frames */
+/**
+* Simple spinner frames 
+*/
 static const char *frames[] = { "⠁","⠂","⠄","⡀","⢀","⠠","⠐","⠈" };
 static const int NFRAMES = sizeof(frames)/sizeof(frames[0]);
 
-/* Draw a fancy title using colors */
+/**
+* Draw a fancy title using colors 
+*/
 void draw_title(int phase) 
 {
     const char *name = "NachtsternBuild";
@@ -70,7 +55,9 @@ void draw_title(int phase)
     }
 }
 
-/* A small "orbiter" line with spinner and progress-like dots */
+/**
+* A small "orbiter" line with spinner and progress-like dots 
+*/
 void orbiter(int step) 
 {
     int pos = step % 40;
@@ -96,7 +83,9 @@ void orbiter(int step)
     }
 }
 
-/* A fake "updater" that alternates success/fail cheekily */
+/**
+* A fake "updater" that alternates success/fail cheekily 
+*/
 void fake_update_sequence(void) 
 {
     const char *msgs[] = {
@@ -118,7 +107,9 @@ void fake_update_sequence(void)
             usleep(SLEEP_US);
             printf("\b \b");
         }
-        /* playful outcome */
+        /**
+        * playful outcome 
+        */
         if ((i % 2) == 0) 
         {
             printf("%s[OK]%s", cols[(i+2) % NCOLS], RESET);
@@ -134,11 +125,15 @@ void fake_update_sequence(void)
 
 int main(void) 
 {
-    /* hide cursor */
+    /**
+	 * hide cursor 
+	 */
     printf("\x1b[?25l");
     for (int phase = 0; phase < 12; ++phase) 
     {
-        /* print title */
+        /**
+		 * print title 
+		 */
         printf("\r");
         const char *header = "  •  ";
         printf("%s", header);
@@ -147,13 +142,17 @@ int main(void)
             printf("%s%c%s", cols[(i + phase) % NCOLS], "NachtsternBuild"[i], RESET);
         }
         printf("  ");
-        /* spinner */
+        /**
+		 * spinner 
+		 */
         printf("%s%s%s", cols[phase % NCOLS], frames[phase % NFRAMES], RESET);
         fflush(stdout);
         usleep(SLEEP_US * 6);
     }
 
-    /* orbiter animation */
+    /**
+	 * orbiter animation 
+	 */
     for (int i = 0; i < 80; ++i) 
     {
         printf("\r ");
@@ -162,20 +161,26 @@ int main(void)
         usleep(SLEEP_US);
     }
 
-    /* fake update */
+    /**
+	 * fake update 
+	 */
     printf("\n\n");
     fake_update_sequence();
 
-    /* final playful tagline */
-    printf("%s✨ Done — build something weird and useful ✨%s\n", cols[2], RESET);
+    /**
+	 * final playful tagline 
+	 */
+    printf("%s Done — build something weird and useful. %s\n", cols[2], RESET);
 
-    /* restore cursor */
+    /**
+	 * restore cursor 
+	 */
     printf("\x1b[?25h");
     return 0;
 }
 ```
 
-## 📂 Languages & Tools
+## Languages & Tools & Insights
 <p align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="96" height="96" style="margin: 10px;"/>
   <sub><sup> C </sup></sub> 
@@ -190,8 +195,6 @@ int main(void)
   <img src="https://github.com/devicons/devicon/blob/master/icons/android/android-original.svg" title="Android" alt="Android" width="96" height="96" style="margin: 10px;"/> 
   <sub><sup> Android </sup></sub>
 </p>
-
-## 📊 GitHub Insights
 <p align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NachtsternBuild&theme=2077" height="180em" style="border-radius: 20px;"/>
 </p>
